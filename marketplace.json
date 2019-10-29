@@ -1,0 +1,18 @@
+{
+  "marketplaceName": {
+    "en": "swiatprzesylek.pl"
+  },
+  "license": "Copyright by SwiatPrzesylek.pl",
+  "price": 0.00,
+  "shortDescription": {
+    "en": "The official SP plugin - Access to network of global alternative postal operator with local HUB’s in all EU countries.",
+    "de": "Das offizielle SP-Plugin - Zugang zum Netzwerk globaler alternativer Postbetreiber mit lokalen HUBs in allen EU-Ländern."
+  },
+  "categories": [
+    "3521"
+  ],
+  "keywords": [
+    "plugins",
+    "shipping"
+  ]
+}

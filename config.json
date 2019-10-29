@@ -1,0 +1,1116 @@
+{
+  "formatVersion": 1.0,
+  "menu": {
+    "Config.access": {
+      "label": "Config.access",
+      "formFields": {
+        "access.apiUsername": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.accessApiUsername"
+        },
+        "access.apiToken": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.accessApiToken"
+        }
+      }
+    },
+    "Config.accessB": {
+      "label": "Config.accessB",
+      "formFields": {
+        "access.apiUsernameB": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.accessApiUsernameB"
+        },
+        "access.apiTokenB": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.accessApiTokenB"
+        }
+      }
+    },
+    "Config.accessC": {
+      "label": "Config.accessC",
+      "formFields": {
+        "access.apiUsernameC": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.accessApiUsernameC"
+        },
+        "access.apiTokenC": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.accessApiTokenC"
+        }
+      }
+    },
+    "Config.sender": {
+      "label": "Config.sender",
+      "formFields": {
+        "sender.name": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.senderName"
+        },
+        "sender.company": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.senderCompany"
+        },
+        "sender.address_line_1": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.senderAddress"
+        },
+        "sender.address_line_2": {
+          "type": "inputText",
+          "required": false,
+          "label": "Config.senderAddress2"
+        },
+        "sender.zip_code": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.senderZipCode"
+        },
+        "sender.city": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.senderCity"
+        },
+        "sender.tel": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.senderPhone"
+        },
+        "sender.country": {
+          "type": "selectBox",
+          "required": true,
+          "label": "Config.senderCountry",
+          "options": {
+            "defaultValue": "PL",
+            "selectBoxValues": [
+              {
+                "value": "AF",
+                "caption": "Config.senderCountryAF"
+              },
+              {
+                "value": "AX",
+                "caption": "Config.senderCountryAX"
+              },
+              {
+                "value": "AL",
+                "caption": "Config.senderCountryAL"
+              },
+              {
+                "value": "DZ",
+                "caption": "Config.senderCountryDZ"
+              },
+              {
+                "value": "AS",
+                "caption": "Config.senderCountryAS"
+              },
+              {
+                "value": "AD",
+                "caption": "Config.senderCountryAD"
+              },
+              {
+                "value": "AO",
+                "caption": "Config.senderCountryAO"
+              },
+              {
+                "value": "AI",
+                "caption": "Config.senderCountryAI"
+              },
+              {
+                "value": "AQ",
+                "caption": "Config.senderCountryAQ"
+              },
+              {
+                "value": "AG",
+                "caption": "Config.senderCountryAG"
+              },
+              {
+                "value": "AR",
+                "caption": "Config.senderCountryAR"
+              },
+              {
+                "value": "AM",
+                "caption": "Config.senderCountryAM"
+              },
+              {
+                "value": "AW",
+                "caption": "Config.senderCountryAW"
+              },
+              {
+                "value": "AU",
+                "caption": "Config.senderCountryAU"
+              },
+              {
+                "value": "AT",
+                "caption": "Config.senderCountryAT"
+              },
+              {
+                "value": "AZ",
+                "caption": "Config.senderCountryAZ"
+              },
+              {
+                "value": "BS",
+                "caption": "Config.senderCountryBS"
+              },
+              {
+                "value": "BH",
+                "caption": "Config.senderCountryBH"
+              },
+              {
+                "value": "BD",
+                "caption": "Config.senderCountryBD"
+              },
+              {
+                "value": "BB",
+                "caption": "Config.senderCountryBB"
+              },
+              {
+                "value": "BY",
+                "caption": "Config.senderCountryBY"
+              },
+              {
+                "value": "BE",
+                "caption": "Config.senderCountryBE"
+              },
+              {
+                "value": "BZ",
+                "caption": "Config.senderCountryBZ"
+              },
+              {
+                "value": "BJ",
+                "caption": "Config.senderCountryBJ"
+              },
+              {
+                "value": "BM",
+                "caption": "Config.senderCountryBM"
+              },
+              {
+                "value": "BT",
+                "caption": "Config.senderCountryBT"
+              },
+              {
+                "value": "BO",
+                "caption": "Config.senderCountryBO"
+              },
+              {
+                "value": "BA",
+                "caption": "Config.senderCountryBA"
+              },
+              {
+                "value": "BW",
+                "caption": "Config.senderCountryBW"
+              },
+              {
+                "value": "BV",
+                "caption": "Config.senderCountryBV"
+              },
+              {
+                "value": "BR",
+                "caption": "Config.senderCountryBR"
+              },
+              {
+                "value": "IO",
+                "caption": "Config.senderCountryIO"
+              },
+              {
+                "value": "BN",
+                "caption": "Config.senderCountryBN"
+              },
+              {
+                "value": "BG",
+                "caption": "Config.senderCountryBG"
+              },
+              {
+                "value": "BF",
+                "caption": "Config.senderCountryBF"
+              },
+              {
+                "value": "BI",
+                "caption": "Config.senderCountryBI"
+              },
+              {
+                "value": "KH",
+                "caption": "Config.senderCountryKH"
+              },
+              {
+                "value": "CM",
+                "caption": "Config.senderCountryCM"
+              },
+              {
+                "value": "CA",
+                "caption": "Config.senderCountryCA"
+              },
+              {
+                "value": "CV",
+                "caption": "Config.senderCountryCV"
+              },
+              {
+                "value": "KY",
+                "caption": "Config.senderCountryKY"
+              },
+              {
+                "value": "CF",
+                "caption": "Config.senderCountryCF"
+              },
+              {
+                "value": "TD",
+                "caption": "Config.senderCountryTD"
+              },
+              {
+                "value": "CL",
+                "caption": "Config.senderCountryCL"
+              },
+              {
+                "value": "CN",
+                "caption": "Config.senderCountryCN"
+              },
+              {
+                "value": "CX",
+                "caption": "Config.senderCountryCX"
+              },
+              {
+                "value": "CC",
+                "caption": "Config.senderCountryCC"
+              },
+              {
+                "value": "CO",
+                "caption": "Config.senderCountryCO"
+              },
+              {
+                "value": "KM",
+                "caption": "Config.senderCountryKM"
+              },
+              {
+                "value": "CG",
+                "caption": "Config.senderCountryCG"
+              },
+              {
+                "value": "CD",
+                "caption": "Config.senderCountryCD"
+              },
+              {
+                "value": "CK",
+                "caption": "Config.senderCountryCK"
+              },
+              {
+                "value": "CR",
+                "caption": "Config.senderCountryCR"
+              },
+              {
+                "value": "CI",
+                "caption": "Config.senderCountryCI"
+              },
+              {
+                "value": "HR",
+                "caption": "Config.senderCountryHR"
+              },
+              {
+                "value": "CU",
+                "caption": "Config.senderCountryCU"
+              },
+              {
+                "value": "CY",
+                "caption": "Config.senderCountryCY"
+              },
+              {
+                "value": "CZ",
+                "caption": "Config.senderCountryCZ"
+              },
+              {
+                "value": "DK",
+                "caption": "Config.senderCountryDK"
+              },
+              {
+                "value": "DJ",
+                "caption": "Config.senderCountryDJ"
+              },
+              {
+                "value": "DM",
+                "caption": "Config.senderCountryDM"
+              },
+              {
+                "value": "DO",
+                "caption": "Config.senderCountryDO"
+              },
+              {
+                "value": "EC",
+                "caption": "Config.senderCountryEC"
+              },
+              {
+                "value": "EG",
+                "caption": "Config.senderCountryEG"
+              },
+              {
+                "value": "SV",
+                "caption": "Config.senderCountrySV"
+              },
+              {
+                "value": "GQ",
+                "caption": "Config.senderCountryGQ"
+              },
+              {
+                "value": "ER",
+                "caption": "Config.senderCountryER"
+              },
+              {
+                "value": "EE",
+                "caption": "Config.senderCountryEE"
+              },
+              {
+                "value": "ET",
+                "caption": "Config.senderCountryET"
+              },
+              {
+                "value": "FK",
+                "caption": "Config.senderCountryFK"
+              },
+              {
+                "value": "FO",
+                "caption": "Config.senderCountryFO"
+              },
+              {
+                "value": "FJ",
+                "caption": "Config.senderCountryFJ"
+              },
+              {
+                "value": "FI",
+                "caption": "Config.senderCountryFI"
+              },
+              {
+                "value": "FR",
+                "caption": "Config.senderCountryFR"
+              },
+              {
+                "value": "GF",
+                "caption": "Config.senderCountryGF"
+              },
+              {
+                "value": "PF",
+                "caption": "Config.senderCountryPF"
+              },
+              {
+                "value": "TF",
+                "caption": "Config.senderCountryTF"
+              },
+              {
+                "value": "GA",
+                "caption": "Config.senderCountryGA"
+              },
+              {
+                "value": "GM",
+                "caption": "Config.senderCountryGM"
+              },
+              {
+                "value": "GE",
+                "caption": "Config.senderCountryGE"
+              },
+              {
+                "value": "DE",
+                "caption": "Config.senderCountryDE"
+              },
+              {
+                "value": "GH",
+                "caption": "Config.senderCountryGH"
+              },
+              {
+                "value": "GI",
+                "caption": "Config.senderCountryGI"
+              },
+              {
+                "value": "GR",
+                "caption": "Config.senderCountryGR"
+              },
+              {
+                "value": "GL",
+                "caption": "Config.senderCountryGL"
+              },
+              {
+                "value": "GD",
+                "caption": "Config.senderCountryGD"
+              },
+              {
+                "value": "GP",
+                "caption": "Config.senderCountryGP"
+              },
+              {
+                "value": "GU",
+                "caption": "Config.senderCountryGU"
+              },
+              {
+                "value": "GT",
+                "caption": "Config.senderCountryGT"
+              },
+              {
+                "value": "GG",
+                "caption": "Config.senderCountryGG"
+              },
+              {
+                "value": "GN",
+                "caption": "Config.senderCountryGN"
+              },
+              {
+                "value": "GW",
+                "caption": "Config.senderCountryGW"
+              },
+              {
+                "value": "GY",
+                "caption": "Config.senderCountryGY"
+              },
+              {
+                "value": "HT",
+                "caption": "Config.senderCountryHT"
+              },
+              {
+                "value": "HM",
+                "caption": "Config.senderCountryHM"
+              },
+              {
+                "value": "VA",
+                "caption": "Config.senderCountryVA"
+              },
+              {
+                "value": "HN",
+                "caption": "Config.senderCountryHN"
+              },
+              {
+                "value": "HK",
+                "caption": "Config.senderCountryHK"
+              },
+              {
+                "value": "HU",
+                "caption": "Config.senderCountryHU"
+              },
+              {
+                "value": "IS",
+                "caption": "Config.senderCountryIS"
+              },
+              {
+                "value": "IN",
+                "caption": "Config.senderCountryIN"
+              },
+              {
+                "value": "ID",
+                "caption": "Config.senderCountryID"
+              },
+              {
+                "value": "IR",
+                "caption": "Config.senderCountryIR"
+              },
+              {
+                "value": "IQ",
+                "caption": "Config.senderCountryIQ"
+              },
+              {
+                "value": "IE",
+                "caption": "Config.senderCountryIE"
+              },
+              {
+                "value": "IM",
+                "caption": "Config.senderCountryIM"
+              },
+              {
+                "value": "IL",
+                "caption": "Config.senderCountryIL"
+              },
+              {
+                "value": "IT",
+                "caption": "Config.senderCountryIT"
+              },
+              {
+                "value": "JM",
+                "caption": "Config.senderCountryJM"
+              },
+              {
+                "value": "JP",
+                "caption": "Config.senderCountryJP"
+              },
+              {
+                "value": "JE",
+                "caption": "Config.senderCountryJE"
+              },
+              {
+                "value": "JO",
+                "caption": "Config.senderCountryJO"
+              },
+              {
+                "value": "KZ",
+                "caption": "Config.senderCountryKZ"
+              },
+              {
+                "value": "KE",
+                "caption": "Config.senderCountryKE"
+              },
+              {
+                "value": "KI",
+                "caption": "Config.senderCountryKI"
+              },
+              {
+                "value": "KR",
+                "caption": "Config.senderCountryKR"
+              },
+              {
+                "value": "KW",
+                "caption": "Config.senderCountryKW"
+              },
+              {
+                "value": "KG",
+                "caption": "Config.senderCountryKG"
+              },
+              {
+                "value": "LA",
+                "caption": "Config.senderCountryLA"
+              },
+              {
+                "value": "LV",
+                "caption": "Config.senderCountryLV"
+              },
+              {
+                "value": "LB",
+                "caption": "Config.senderCountryLB"
+              },
+              {
+                "value": "LS",
+                "caption": "Config.senderCountryLS"
+              },
+              {
+                "value": "LR",
+                "caption": "Config.senderCountryLR"
+              },
+              {
+                "value": "LY",
+                "caption": "Config.senderCountryLY"
+              },
+              {
+                "value": "LI",
+                "caption": "Config.senderCountryLI"
+              },
+              {
+                "value": "LT",
+                "caption": "Config.senderCountryLT"
+              },
+              {
+                "value": "LU",
+                "caption": "Config.senderCountryLU"
+              },
+              {
+                "value": "MO",
+                "caption": "Config.senderCountryMO"
+              },
+              {
+                "value": "MK",
+                "caption": "Config.senderCountryMK"
+              },
+              {
+                "value": "MG",
+                "caption": "Config.senderCountryMG"
+              },
+              {
+                "value": "MW",
+                "caption": "Config.senderCountryMW"
+              },
+              {
+                "value": "MY",
+                "caption": "Config.senderCountryMY"
+              },
+              {
+                "value": "MV",
+                "caption": "Config.senderCountryMV"
+              },
+              {
+                "value": "ML",
+                "caption": "Config.senderCountryML"
+              },
+              {
+                "value": "MT",
+                "caption": "Config.senderCountryMT"
+              },
+              {
+                "value": "MH",
+                "caption": "Config.senderCountryMH"
+              },
+              {
+                "value": "MQ",
+                "caption": "Config.senderCountryMQ"
+              },
+              {
+                "value": "MR",
+                "caption": "Config.senderCountryMR"
+              },
+              {
+                "value": "MU",
+                "caption": "Config.senderCountryMU"
+              },
+              {
+                "value": "YT",
+                "caption": "Config.senderCountryYT"
+              },
+              {
+                "value": "MX",
+                "caption": "Config.senderCountryMX"
+              },
+              {
+                "value": "FM",
+                "caption": "Config.senderCountryFM"
+              },
+              {
+                "value": "MD",
+                "caption": "Config.senderCountryMD"
+              },
+              {
+                "value": "MC",
+                "caption": "Config.senderCountryMC"
+              },
+              {
+                "value": "MN",
+                "caption": "Config.senderCountryMN"
+              },
+              {
+                "value": "ME",
+                "caption": "Config.senderCountryME"
+              },
+              {
+                "value": "MS",
+                "caption": "Config.senderCountryMS"
+              },
+              {
+                "value": "MA",
+                "caption": "Config.senderCountryMA"
+              },
+              {
+                "value": "MZ",
+                "caption": "Config.senderCountryMZ"
+              },
+              {
+                "value": "MM",
+                "caption": "Config.senderCountryMM"
+              },
+              {
+                "value": "NA",
+                "caption": "Config.senderCountryNA"
+              },
+              {
+                "value": "NR",
+                "caption": "Config.senderCountryNR"
+              },
+              {
+                "value": "NP",
+                "caption": "Config.senderCountryNP"
+              },
+              {
+                "value": "NL",
+                "caption": "Config.senderCountryNL"
+              },
+              {
+                "value": "AN",
+                "caption": "Config.senderCountryAN"
+              },
+              {
+                "value": "NC",
+                "caption": "Config.senderCountryNC"
+              },
+              {
+                "value": "NZ",
+                "caption": "Config.senderCountryNZ"
+              },
+              {
+                "value": "NI",
+                "caption": "Config.senderCountryNI"
+              },
+              {
+                "value": "NE",
+                "caption": "Config.senderCountryNE"
+              },
+              {
+                "value": "NG",
+                "caption": "Config.senderCountryNG"
+              },
+              {
+                "value": "NU",
+                "caption": "Config.senderCountryNU"
+              },
+              {
+                "value": "NF",
+                "caption": "Config.senderCountryNF"
+              },
+              {
+                "value": "MP",
+                "caption": "Config.senderCountryMP"
+              },
+              {
+                "value": "NO",
+                "caption": "Config.senderCountryNO"
+              },
+              {
+                "value": "OM",
+                "caption": "Config.senderCountryOM"
+              },
+              {
+                "value": "PK",
+                "caption": "Config.senderCountryPK"
+              },
+              {
+                "value": "PW",
+                "caption": "Config.senderCountryPW"
+              },
+              {
+                "value": "PS",
+                "caption": "Config.senderCountryPS"
+              },
+              {
+                "value": "PA",
+                "caption": "Config.senderCountryPA"
+              },
+              {
+                "value": "PG",
+                "caption": "Config.senderCountryPG"
+              },
+              {
+                "value": "PY",
+                "caption": "Config.senderCountryPY"
+              },
+              {
+                "value": "PE",
+                "caption": "Config.senderCountryPE"
+              },
+              {
+                "value": "PH",
+                "caption": "Config.senderCountryPH"
+              },
+              {
+                "value": "PN",
+                "caption": "Config.senderCountryPN"
+              },
+              {
+                "value": "PL",
+                "caption": "Config.senderCountryPL"
+              },
+              {
+                "value": "PT",
+                "caption": "Config.senderCountryPT"
+              },
+              {
+                "value": "PR",
+                "caption": "Config.senderCountryPR"
+              },
+              {
+                "value": "QA",
+                "caption": "Config.senderCountryQA"
+              },
+              {
+                "value": "RE",
+                "caption": "Config.senderCountryRE"
+              },
+              {
+                "value": "RO",
+                "caption": "Config.senderCountryRO"
+              },
+              {
+                "value": "RU",
+                "caption": "Config.senderCountryRU"
+              },
+              {
+                "value": "RW",
+                "caption": "Config.senderCountryRW"
+              },
+              {
+                "value": "BL",
+                "caption": "Config.senderCountryBL"
+              },
+              {
+                "value": "SH",
+                "caption": "Config.senderCountrySH"
+              },
+              {
+                "value": "KN",
+                "caption": "Config.senderCountryKN"
+              },
+              {
+                "value": "LC",
+                "caption": "Config.senderCountryLC"
+              },
+              {
+                "value": "MF",
+                "caption": "Config.senderCountryMF"
+              },
+              {
+                "value": "PM",
+                "caption": "Config.senderCountryPM"
+              },
+              {
+                "value": "VC",
+                "caption": "Config.senderCountryVC"
+              },
+              {
+                "value": "WS",
+                "caption": "Config.senderCountryWS"
+              },
+              {
+                "value": "SM",
+                "caption": "Config.senderCountrySM"
+              },
+              {
+                "value": "ST",
+                "caption": "Config.senderCountryST"
+              },
+              {
+                "value": "SA",
+                "caption": "Config.senderCountrySA"
+              },
+              {
+                "value": "SN",
+                "caption": "Config.senderCountrySN"
+              },
+              {
+                "value": "RS",
+                "caption": "Config.senderCountryRS"
+              },
+              {
+                "value": "SC",
+                "caption": "Config.senderCountrySC"
+              },
+              {
+                "value": "SL",
+                "caption": "Config.senderCountrySL"
+              },
+              {
+                "value": "SG",
+                "caption": "Config.senderCountrySG"
+              },
+              {
+                "value": "SK",
+                "caption": "Config.senderCountrySK"
+              },
+              {
+                "value": "SI",
+                "caption": "Config.senderCountrySI"
+              },
+              {
+                "value": "SB",
+                "caption": "Config.senderCountrySB"
+              },
+              {
+                "value": "SO",
+                "caption": "Config.senderCountrySO"
+              },
+              {
+                "value": "ZA",
+                "caption": "Config.senderCountryZA"
+              },
+              {
+                "value": "GS",
+                "caption": "Config.senderCountryGS"
+              },
+              {
+                "value": "ES",
+                "caption": "Config.senderCountryES"
+              },
+              {
+                "value": "LK",
+                "caption": "Config.senderCountryLK"
+              },
+              {
+                "value": "SD",
+                "caption": "Config.senderCountrySD"
+              },
+              {
+                "value": "SR",
+                "caption": "Config.senderCountrySR"
+              },
+              {
+                "value": "SJ",
+                "caption": "Config.senderCountrySJ"
+              },
+              {
+                "value": "SZ",
+                "caption": "Config.senderCountrySZ"
+              },
+              {
+                "value": "SE",
+                "caption": "Config.senderCountrySE"
+              },
+              {
+                "value": "CH",
+                "caption": "Config.senderCountryCH"
+              },
+              {
+                "value": "SY",
+                "caption": "Config.senderCountrySY"
+              },
+              {
+                "value": "TW",
+                "caption": "Config.senderCountryTW"
+              },
+              {
+                "value": "TJ",
+                "caption": "Config.senderCountryTJ"
+              },
+              {
+                "value": "TZ",
+                "caption": "Config.senderCountryTZ"
+              },
+              {
+                "value": "TH",
+                "caption": "Config.senderCountryTH"
+              },
+              {
+                "value": "TL",
+                "caption": "Config.senderCountryTL"
+              },
+              {
+                "value": "TG",
+                "caption": "Config.senderCountryTG"
+              },
+              {
+                "value": "TK",
+                "caption": "Config.senderCountryTK"
+              },
+              {
+                "value": "TO",
+                "caption": "Config.senderCountryTO"
+              },
+              {
+                "value": "TT",
+                "caption": "Config.senderCountryTT"
+              },
+              {
+                "value": "TN",
+                "caption": "Config.senderCountryTN"
+              },
+              {
+                "value": "TR",
+                "caption": "Config.senderCountryTR"
+              },
+              {
+                "value": "TM",
+                "caption": "Config.senderCountryTM"
+              },
+              {
+                "value": "TC",
+                "caption": "Config.senderCountryTC"
+              },
+              {
+                "value": "TV",
+                "caption": "Config.senderCountryTV"
+              },
+              {
+                "value": "UG",
+                "caption": "Config.senderCountryUG"
+              },
+              {
+                "value": "UA",
+                "caption": "Config.senderCountryUA"
+              },
+              {
+                "value": "AE",
+                "caption": "Config.senderCountryAE"
+              },
+              {
+                "value": "GB",
+                "caption": "Config.senderCountryGB"
+              },
+              {
+                "value": "US",
+                "caption": "Config.senderCountryUS"
+              },
+              {
+                "value": "UM",
+                "caption": "Config.senderCountryUM"
+              },
+              {
+                "value": "UY",
+                "caption": "Config.senderCountryUY"
+              },
+              {
+                "value": "UZ",
+                "caption": "Config.senderCountryUZ"
+              },
+              {
+                "value": "VU",
+                "caption": "Config.senderCountryVU"
+              },
+              {
+                "value": "VE",
+                "caption": "Config.senderCountryVE"
+              },
+              {
+                "value": "VN",
+                "caption": "Config.senderCountryVN"
+              },
+              {
+                "value": "VG",
+                "caption": "Config.senderCountryVG"
+              },
+              {
+                "value": "VI",
+                "caption": "Config.senderCountryVI"
+              },
+              {
+                "value": "WF",
+                "caption": "Config.senderCountryWF"
+              },
+              {
+                "value": "EH",
+                "caption": "Config.senderCountryEH"
+              },
+              {
+                "value": "YE",
+                "caption": "Config.senderCountryYE"
+              },
+              {
+                "value": "ZM",
+                "caption": "Config.senderCountryZM"
+              },
+              {
+                "value": "ZW",
+                "caption": "Config.senderCountryZW"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Config.receiver": {
+      "label": "Config.receiverDefault",
+      "formFields": {
+        "receiver.tel": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.receiverDefaultPhone",
+          "options": {
+            "defaultValue": "123123123"
+          }
+        }
+      }
+    },
+    "Config.env": {
+      "label": "Config.environment",
+      "formFields": {
+        "env.type": {
+          "type": "selectBox",
+          "required": true,
+          "label": "Config.environmentType",
+          "options": {
+            "defaultValue": "dev",
+            "selectBoxValues": [
+              {
+                "value": "dev",
+                "caption": "Config.environmentTypeDevelopment"
+              },
+              {
+                "value": "prod",
+                "caption": "Config.environmentTypeProduction"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
